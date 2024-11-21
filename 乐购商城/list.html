@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>推荐页面</title>
+	<!-- 引入favicon.ico 图标 -->
+	<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon"/>
+	<!-- 引入初始化css文件 -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- 引入公共样式的css 文件 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 引入list列表页css文件 -->
+	<link rel="stylesheet" href="css/list.css">
+	<style>
+
+		.shortcut {
+			background-color: #f8f8f8; /* 添加背景色以便更容易看到 */
+			border-bottom: 1px solid #ddd; /* 添加底部边框 */
+			position: fixed; /* 固定在顶部 */
+			top: 0; /* 距离顶部0px */
+			left: 0; /* 距离左侧0px，确保宽度100%时覆盖整个顶部 */
+			width: 100%;
+			z-index: 999; /* 确保它位于其他元素之上 */
+		}
+		.header.w {
+			background-color: #f8f8f8; /* 添加背景色以便更容易看到 */
+			border-bottom: 1px solid #ddd; /* 添加底部边框 */
+			position: fixed; /* 固定在顶部 */
+			top: 25px; /* 距离顶部0px */
+			left: 155px; /* 距离左侧0px，确保宽度100%时覆盖整个顶部 */
+			width: 79.5%;
+			z-index: 999; /* 确保它位于其他元素之上 */
+		}
+
+	</style>
+</head>
+<body>
+	<!-- 顶部快捷导航 start -->
+	<div class="shortcut">
+		<div class="w">
+			<div class="fr">
+				<ul>
+					<li><a href="order.html">我的订单</a></li>
+					<li class="spacer"></li>
+					<li>
+						<a href="web.html">我的乐购商城</a>
+						<i class="icomoon"></i>
+					</li>
+					<li class="spacer"></li>
+					<li><a href="collect.html">我的收藏</a></li>
+					<li class="spacer"></li>
+					<li><a href="#">企业采购</a></li>
+					<li class="spacer"></li>
+					<li>
+						<a href="#">关注乐购商城</a>
+						<i class="icomoon"></i>
+					</li>
+					<li class="spacer"></li>
+					<li>
+						<a href="login.html">登录</a>
+					</li>
+					<li class="spacer"></li>
+					<li>
+						<a href="register.html">注册</a>
+					</li>
+					<li class="spacer"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部导航 end -->
+
+	<!-- header start -->
+	<div class="header w">
+		<!-- logo	 -->
+		<div class="logo">
+			<h1>
+				<a href="index.html" title="乐购商城">乐购商城</a>
+			</h1>
+
+		</div>
+		<!-- 	search -->
+		<div class="search">
+			<input type="text" class="text" value="">
+			<button class="btn">搜索</button>
+		</div>
+		<!-- hotwrods -->
+		<div class="hotwrods">
+			<a href="#" class="style-red">优惠购首发</a>
+			<a href="#">亿元优惠</a>
+			<a href="#">零食</a>
+			<a href="#">满99减30</a>
+			<a href="#">办公用品</a>
+			<a href="#">手机</a>
+			<a href="#">电脑</a>
+		</div>
+		<!-- shopcar  -->
+		<div class="shopcar">
+			<i class="car"> </i> 我的购物车
+		</div>
+	</div>
+	<!-- header end -->
+
+	<!-- nav start -->
+	<div class="nav">
+			<div class="w">
+				<div class="sk-list fl">
+					<ul>
+						<li><a href="#">品优秒杀</a></li>
+						<li><a href="#">超值低价</a></li>
+						<li><a href="#">即将售罄</a></li>
+					</ul>
+				</div>
+				<div class="sk-con fl">
+					<ul>
+						<li><a href="#">女装</a></li>
+						<li><a href="#" class="style-red">手机</a></li>
+						<li><a href="#">男装</a></li>
+						<li><a href="#">男鞋</a></li>
+						<li><a href="#">母婴童装</a></li>
+						<li><a href="#">智能数码</a></li>
+						<li><a href="#">食品</a></li>
+						<li><a href="#">运动户外</a></li>
+						<li><a href="#">更多分类</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<!-- nav end -->
+
+	<!-- 内容 start -->
+	<div class="sk-container  w">
+		<div class="sk-hd">
+			<img src="upload/bg_03.png" alt="">
+		</div>
+		<div class="sk-bd clearfix">
+			<ul>
+				<li class="sk-goods">
+					<a href="detaill.html" target="_blank">
+						<img src="upload/iphone.jpg" alt="">
+					<h5 class="sk-goods-title">Apple苹果iPhone16Pro 512G金色 移动联通电信 5G手机</h5>
+					</a>
+					<p class="sk-goods-price"><em>¥8888</em> <del>￥18888</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>10</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/deli.jpg" alt="">
+					<h5 class="sk-goods-title">得力（deli）热熔胶枪家用手工DIY热熔枪恒温胶枪带10根热熔胶棒</h5>
+					<p class="sk-goods-price"><em>¥99</em> <del>￥199</del></p>
+					<div class="sk-goods-progress">
+						已售<i>85%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>133</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/zhuozi.jpg" alt="">
+					<h5 class="sk-goods-title">南辰家金丝檀木全实木餐桌餐桌金丝檀木实木餐桌</h5>
+					<p class="sk-goods-price"><em>¥2199</em> <del>￥2888</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>209</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/茶壶.jpg" alt="">
+					<h5 class="sk-goods-title">尚言坊耐高温玻璃茶壶泡茶壶飘逸杯一键按压茶水分离家用过滤泡茶器具</h5>
+					<p class="sk-goods-price"><em>¥108</em> <del>￥148</del></p>
+					<div class="sk-goods-progress">
+						已售<i>87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>33</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/戒指.jpg" alt="">
+					<h5 class="sk-goods-title">CEMNI千年珠宝黄金戒指女三生三世轻奢小众足金素圈关节戒叠戴</h5>
+					<p class="sk-goods-price"><em>¥443</em> <del>￥509</del></p>
+					<div class="sk-goods-progress">
+						已售<i>88%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>10</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/台酒.jpg" alt="">
+					<h5 class="sk-goods-title">茅台集团 台源 53度 酱香型白酒 500ml</h5>
+					<p class="sk-goods-price"><em>¥99</em> <del>￥138</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>1</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/碗.jpg" alt="">
+					<h5 class="sk-goods-title">不锈钢泡面碗带盖汤面碗饭盒食堂打饭碗</h5>
+					<p class="sk-goods-price"><em>¥36</em> <del>￥59</del></p>
+					<div class="sk-goods-progress">
+						已售<i>85%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>3</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/曲奇.jpg" alt="">
+					<h5 class="sk-goods-title">黄油饼干休闲零食(家庭装）德国进口零食，24包</h5>
+					<p class="sk-goods-price"><em>¥109</em> <del>￥148</del></p>
+					<div class="sk-goods-progress">
+						已售<i>88%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>15</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/亮肤水.jpg" alt="">
+					<h5 class="sk-goods-title">资生堂悦薇珀翡水乳套装亮肤水75ml 乳液30ml</h5>
+					<p class="sk-goods-price"><em>¥99</em> <del>￥168</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>4</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/橙子.jpg" alt="">
+					<h5 class="sk-goods-title">江西赣南脐橙当季采摘优选橙子 年货礼盒水果 净果9斤彩箱优选果</h5>
+					<p class="sk-goods-price"><em>¥25</em> <del>￥38</del></p>
+					<div class="sk-goods-progress">
+						已售<i>91%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>9</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/内存条.jpg" alt="">
+					<h5 class="sk-goods-title">金士顿 (Kingston) FURY 32GB(16G×2)套装 DDR4 3600 台式机内存条</h5>
+					<p class="sk-goods-price"><em>¥399</em> <del>￥469</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>20</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+				<li class="sk-goods">
+					<img src="upload/毛衣.jpg" alt="">
+					<h5 class="sk-goods-title">北极绒 男童毛衣2024新款儿童套头针织衫加绒加厚纯棉</h5>
+					<p class="sk-goods-price"><em>¥88</em> <del>￥108</del></p>
+					<div class="sk-goods-progress">
+						已售<i>90%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<em>100</em>件
+					</div>
+					<a href="#" class="sk-goods-buy">立即抢购</a>
+				</li>
+			</ul>
+		</div>
+		<!-- page 分页 -->
+		<div class="page">
+			<span class="page-num">
+				<a href="#" class="pn-prev">&lt;&lt;上一页</a>
+				<a href="#" class="current style-red">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#" class="pn-next">下一页&gt;&gt;</a>
+			</span>
+			<span class="page-skip">
+				共3页  到第
+				<input type="text" name="" id="">
+				页
+				<button>确定</button>
+			</span>
+		</div>
+	</div>
+	<!-- 内容  end-->
+
+
+
+
+	<!-- footer start -->
+	<div class="footer">
+		<div class="w">
+			<div class="mod_service">
+				<ul>
+					<li>
+						<i class="mod_service_icon  mod_service1"></i>
+						<div class="mod_service_tit">
+							<h5>正品保障</h5>
+							<p>正品保障，提供发票</p>
+						</div>
+					</li>
+					<li>
+						<i class="mod_service_icon  mod_service2"></i>
+						<div class="mod_service_tit">
+							<h5>发货速度</h5>
+							<p>极速发货，全国可发</p>
+						</div>
+					</li>
+					<li>
+						<i class="mod_service_icon  mod_service3"></i>
+						<div class="mod_service_tit">
+							<h5>退货流程</h5>
+							<p>上门取件，退换无忧</p>
+						</div>
+					</li>
+					<li>
+						<i class="mod_service_icon  mod_service4"></i>
+						<div class="mod_service_tit">
+							<h5>价格保障</h5>
+							<p>天天低价，优惠大众</p>
+						</div>
+					</li>
+					<li>
+						<i class="mod_service_icon  mod_service5"></i>
+						<div class="mod_service_tit">
+							<h5>种类齐全</h5>
+							<p>品类齐全，自由选购</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mod_help">
+				<dl class="mod_help_item">
+					<dt>购物指南</dt>
+					<dd> <a href="#">购物流程 </a></dd>
+					<dd> <a href="#">会员介绍 </a></dd>
+					<dd> <a href="#">生活旅行/团购 </a></dd>
+					<dd> <a href="#">常见问题 </a></dd>
+					<dd> <a href="#">大家电 </a></dd>
+					<dd> <a href="#">联系客服 </a></dd>
+				</dl>
+				<dl class="mod_help_item">
+					<dt>配送方式</dt>
+					<dd> <a href="#">购物流程 </a></dd>
+					<dd> <a href="#">会员介绍 </a></dd>
+					<dd> <a href="#">生活旅行/团购 </a></dd>
+					<dd> <a href="#">常见问题 </a></dd>
+					<dd> <a href="#">大家电 </a></dd>
+					<dd> <a href="#">联系客服 </a></dd>
+				</dl>
+				<dl class="mod_help_item">
+					<dt>支付方式</dt>
+					<dd> <a href="#">购物流程 </a></dd>
+					<dd> <a href="#">会员介绍 </a></dd>
+					<dd> <a href="#">生活旅行/团购 </a></dd>
+					<dd> <a href="#">常见问题 </a></dd>
+					<dd> <a href="#">大家电 </a></dd>
+					<dd> <a href="#">联系客服 </a></dd>
+				</dl>
+				<dl class="mod_help_item">
+					<dt>售后服务</dt>
+					<dd> <a href="#">购物流程 </a></dd>
+					<dd> <a href="#">会员介绍 </a></dd>
+					<dd> <a href="#">生活旅行/团购 </a></dd>
+					<dd> <a href="#">常见问题 </a></dd>
+					<dd> <a href="#">大家电 </a></dd>
+					<dd> <a href="#">联系客服 </a></dd>
+				</dl>
+				<dl class="mod_help_item">
+					<dt>特色服务</dt>
+					<dd> <a href="#">购物流程 </a></dd>
+					<dd> <a href="#">会员介绍 </a></dd>
+					<dd> <a href="#">生活旅行/团购 </a></dd>
+					<dd> <a href="#">常见问题 </a></dd>
+					<dd> <a href="#">大家电 </a></dd>
+					<dd> <a href="#">联系客服 </a></dd>
+				</dl>
+				<dl class="mod_help_item mod_help_app">
+					<dt>帮助中心</dt>
+					<dd>
+						<img src="upload/LT.png" alt="">
+						<p>乐购商城客户端</p>
+					</dd>
+
+				</dl>
+			</div>
+			<div class="mod_copyright">
+				<p class="mod_copyright_links">
+					关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机乐购商城 | 友情链接 | 销售联盟 | 乐购商城社区 | 乐购商城公益 | English Site | Contact U
+				</p>
+				<p class="mod_copyright_info">
+					地址：北京市XXXXXXXXXXX 邮编：XXXXX 电话：400-618-4000 传真：XXX-XXXXXXXXXX 邮箱: XXXXXXXXX.cn<br> 京ICP备XXXXXXX号京公网安备XXXXXXX
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+</body>
+</html>

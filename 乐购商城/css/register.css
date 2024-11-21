@@ -1,0 +1,122 @@
+/*注册页面*/
+
+ .w {
+ 	width: 1200px;
+ 	margin: auto;
+ }
+ .header {
+ 	height: 82px;
+ 	border-bottom:  2px solid #b1191a;
+ }
+ .logo {
+ 	padding-top: 20px;
+ }
+ .registerarea {
+ 	height: 520px;
+ 	border: 1px solid #ccc;
+ 	margin-top: 20px;
+ }
+
+ .registerarea  h3 {
+ 	height: 40px;
+ 	border-bottom: 1px solid #ccc;
+ 	background-color: #ececec;
+ 	line-height: 40px;
+	padding:0 10px;
+	font-weight: 400;
+	font-size: 18px;
+ }
+ .registerarea h3 em {
+ 	float: right;
+ 	font-size: 14px;
+
+ }
+ .registerarea a {
+ 	color: #c81623;
+ }
+
+ .reg-form {
+ 	width: 600px;
+ 	height: 400px;
+ 	margin: 40px auto 0;
+ }
+ .reg-form li {
+ 	margin-bottom: 15px;
+ }
+ .reg-form label {
+ 	display: inline-block;
+ 	width: 100px;
+ 	height: 36px;
+ 	line-height: 36px;
+ 	text-align: right;
+ }
+ .inp {
+ 	width: 238px;
+ 	height: 34px;
+ 	border: 1px solid #ccc;
+ 	margin-left: 10px;
+ }
+ .error {
+ 	color: #c81623;
+ 	margin-left: 10px;
+ }
+ .error-icon {
+ 	display: inline-block;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: url(../img/error.png) no-repeat;
+ 	vertical-align: middle;
+ 	margin-top: -2px;
+ }
+ .success {
+ 	color: #40b83f;
+ 	margin-left: 10px;
+ }
+ .success-icon {
+ 	display: inline-block;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: url(../img/success.png) no-repeat;
+ 	vertical-align: middle;
+ 	margin-top: -2px;
+ }
+
+ .agree {
+ 	padding-left: 100px;
+ 	margin-top: 30px;
+ }
+
+ .agree input {
+ 	vertical-align: middle;
+ 	margin-right: 5px;
+
+ }
+
+ .agree a {
+ 	color: #1ba1e6;
+ }
+ .over {
+
+ 	width: 200px;
+ 	height: 34px;
+ 	background-color: #c81623;
+ 	margin: 55px 128px;
+ 	border: 0;
+ 	color: #fff;
+ 	font-size: 14px;
+ }
+
+ .footer {
+ 	height: 120px;
+ 	text-align: center;
+
+ }
+ .links {
+ 	margin-top: 20px;
+ 	height: 30px;
+ }
+ .copyright {
+ 	line-height: 20px;
+ }
+
+
